@@ -1,0 +1,175 @@
+    1  git clone https://github.com/Chukseev/translation.git
+    2  sudo apt install git
+    3  git clone https://github.com/Chukseev/translation.git
+    4  sudo apt-get update
+    5  git clone https://github.com/meetecho/janus-gateway.git
+    6  sudo apt install make 
+    7  cd translations/
+    8  python3 manage.py runserver
+    9  cd ../
+   10  cl
+   11  clear
+   12  source venv/bin/activate
+   13  git clone https://github.com/meetecho/janus-gateway.git
+   14  cd janus-gateway/
+   15  sh autogen.sh~
+   16  sh autogen.sh
+   17  h autogen.sh
+   18  sudo make install
+   19  python -m venv venv
+   20  python3 -m venv venv
+   21  apt install python3.12-venv
+   22  sudo apt install python3.12-venv
+   23  python -m venv venv
+   24  python3 -m venv venv
+   25  ls -a
+   26  pip install django == '5.0.6'
+   27  pip install django=='5.0.6'
+   28  cd ../ 
+   29  ls
+   30  nano docker-compose.yml
+   31  clear
+   32  docker-compose up -d  
+   33  sudo apt update
+   34  sudo apt imstall docker-compose
+   35  [Csudo apt install docker-compose -[2~
+   36  sudo apt install -y docker-compose
+   37  docker-compose up -d  
+   38  sudo docker-compose up -d  
+   39  clear
+   40  sudo docker compose up -d  
+   41  cat docker-compose.yml
+   42  docker ps -a
+   43  docker rm $(docker ps -a -i)
+   44  docker ps --help
+   45  docker rm $(docker ps -a -q)
+   46  docker rm $(docker ps -a -q) --force
+   47  docker ps -a
+   48  clear
+   49  sudp apt-get install open-vm-tools-desktop
+   50  sudo apt-get install open-vm-tools-desktop
+   51  sudo reboot
+   52  sudo apt update
+   53  sudo apt install openssh-server
+   54  sudo apt install openssh-server -y
+   55  sudo apt install openssh-server mc -y
+   56  systemctl status ssh
+   57  clear
+   58  ip a
+   59  sudo systemctl status ssh
+   60  sudo systemctl start ssh
+   61  sudo systemctl status ssh
+   62  [200~sudo systemctl enable ssh
+   63  sudo systemctl enable ssh
+   64  sudo ufw status
+   65  sudo ufw allow ssh
+   66  sudo ufw reload
+   67  ping 192.168.147.128~
+   68  ping 192.168.147.128
+   69  clear
+   70  service ssh status
+   71  service ssh start
+   72  clear
+   73  ip a
+   74  service ssh status
+   75  sudo netstat -tuln | grep 22
+   76  ssh localhost
+   77  service ssh status
+   78  ip a
+   79  ssh localhost
+   80  clear
+   81  echo "Это данные из первого файла" > file1.txt
+   82  echo "Это данные из второго файла" > file2.txt
+   83  ls
+   84  cat file1.txt file2.txt > combined.txt
+   85  cat combined.txt
+   86  mv combined.txt renamed_file.txt
+   87  ls
+   88  mv renamed_file.txt my_directory/
+   89  mkdir my_directory
+   90  mv renamed_file.txt my_directory/
+   91  echo "Это содержимое файла file1" > file1
+   92  cp file1 file2
+   93  ln -s file1 file3
+   94  ln file1 file4
+   95  ls -i file1 file2 file3 file4
+   96  rm file1
+   97  cat file2  # Содержимое файла file2 будет доступно
+   98  cat file3  # Символическая ссылка file3 станет недействительной
+   99  cat file4  # Жесткая ссылка file4 сохранит содержимое file1
+  100  mv file2 renamed_file2
+  101  mv file4 renamed_file4
+  102  ln -s renamed_file2 new_symlink
+  103  mkdir links_directory
+  104  mv file3 renamed_file4 new_symlink links_directory/
+  105  ls
+  106  mc
+  107  clear
+  108  ls
+  109  mkdir h3
+  110  cd h3/
+  111  clear
+  112  touch file1 file2
+  113  chmod u=rw,g=rw,o=r file1
+  114  chmod 664 file1
+  115  chmod u=rw,go= file2
+  116  chmod 600 file2
+  117  mkdir my_directory
+  118  sudo adduser user1
+  119  sudo adduser user2
+  120  sudo groupadd group1
+  121  sudo usermod -aG group1 user1
+  122  sudo chown user1:group1 my_directory
+  123  ls -ld my_directory
+  124  sudo useradd -m user3
+  125  sudo adduser user4
+  126  sudo userdel user3
+  127  sudo groupadd group2
+  128  sudo addgroup group3
+  129  sudo usermod -g group2 user1
+  130  sudo usermod -aG group3 user1
+  131  sudo adduser admin_user
+  132  sudo usermod -aG sudo admin_user
+  133  sudo visudo
+  134  [200~cat > Domestic_Animals.txt
+  135  Dogs
+  136  Cats
+  137  clear
+  138  cat > Domestic_Animals.txt
+  139  cat > Pack_Animals.txt
+  140  cat Domestic_Animals.txt Pack_Animals.txt > Animals_Friends.txt
+  141  cat Animals_Friends.txt
+  142  mv Animals_Friends.txt Animals_Friends_renamed.txt
+  143  mkdir Animals
+  144  mv Animals_Friends_renamed.txt Animals/
+  145  clear
+  146  sudo apt update
+  147  sudo apt install software-properties-common
+  148  sudo add-apt-repository ppa:ondrej/mysql-5.7
+  149  sudo apt update
+  150  [200~sudo apt install mysql-server
+  151  clear
+  152  sudo apt install mysql-server
+  153  clear
+  154  sudo dpkg -i package_name.deb
+  155  cd Downloads
+  156  ls
+  157  sudo dpkg -i package_name.deb
+  158  clear
+  159  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  160  ls
+  161  clear
+  162  ls
+  163  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  164  sudo dpkg -r google-chrome-stable_current_amd64.deb
+  165  clear
+  166  sudo dpkg -r google-chrome-stable
+  167  clear
+  168  [200~history > command_history.txt
+  169  clear
+  170  history > command_history.txt
+  171  cat command_history.txt
+  172  clear
+  173  cat command_history.txt
+  174  clear
+  175  history > command_history.txt
